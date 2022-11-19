@@ -20,12 +20,12 @@ while(switch):
     
         # play sound according to hours
         while(i): 
-            playsound('dong.wav')
+            playsound('hours.wav')
             i = i-1
     
         time.sleep(29-curr_min) #halt
     
     # at every half hour
     elif(curr_min==30):
-        playsound('dong.wav')
+        playsound('half.wav')
         time.sleep(59-curr_min) #halt   
