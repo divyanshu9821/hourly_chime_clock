@@ -21,9 +21,9 @@ tm = int(time.strftime("%M"))
 
 # to halt the program
 if(tm<29 and tm>=0):
-    time.sleep(29-tm)
+    time.sleep((29-tm)*60)
 elif(tm<58 and tm>=30):
-    time.sleep(59-tm)
+    time.sleep((59-tm)*60)
 
 while(True):
     curr_min = int(time.strftime("%M")) # get current minute reading    
