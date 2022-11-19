@@ -16,12 +16,13 @@ print("Minimize the window for your convinence and forget :)\n")
 time.sleep(2)
 
 print("tick tock tick ...")
+
 tm = int(time.strftime("%M"))
 
 # to halt the program
-if(tm<30 and tm>=0):
+if(tm<29 and tm>=0):
     time.sleep(29-tm)
-elif(tm<59 and tm>=30):
+elif(tm<58 and tm>=30):
     time.sleep(59-tm)
 
 while(True):
