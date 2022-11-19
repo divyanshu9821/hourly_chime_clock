@@ -37,9 +37,9 @@ while(True):
             playsound('hours.wav')
             i = i-1
     
-        time.sleep(29-curr_min) #halt
+        time.sleep(28-curr_min) #halt
     
     # at every half hour
     elif(curr_min==30):
         playsound('half.wav')
-        time.sleep(59-curr_min) #halt   
+        time.sleep(58-curr_min) #halt   
