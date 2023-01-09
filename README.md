@@ -1,4 +1,4 @@
-# Pendulum_clock
+# Digital Pendulum_clock
 ### As the name suggest it work in the same way like a pendulum clock
 It rings twice every hour
   * First at O' clock. (Rings = no of hours)
